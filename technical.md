@@ -64,6 +64,17 @@ The `MessagingResponse.toString()` (`response.toString()`) will create the respo
 It is also important to configure a <ins>status</ins> route. For every interaction with the message (message sent, received, read, etc...) Twilio will send a status post request (you can set up the endpoint [here](https://www.twilio.com/console/sms/whatsapp/sandbox)).
 
 ---
+
+### Reply with Emojis
+
+To reply with emojis, you can copy and paste the emojis (you can find some emojis [here](https://unicode.org/emoji/charts/full-emoji-list.html)) in your response code
+
+```javascript
+const response = new MessagingResponse();
+response.message('Hello 😜');
+```
+
+---
 ### Caching
 
 Twilio cannot cache POSTs. If you want Twilio to cache static TwiML pages, then have Twilio make requests to your application using GET.

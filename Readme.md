@@ -38,15 +38,3 @@ api.whatsapp.com/send?phone=<Your Sandbox Number>&text=<your URL-encoded sandbox
 ```
 
 > Obs: The opt-in lasts for 72 hours :warning:
-
----
-
-Vai para a documentação tecnica
-### Reply with Emojis
-
-To reply with emojis, you can copy and paste the emojis (you can find some emojis [here](https://unicode.org/emoji/charts/full-emoji-list.html)) in your response code
-
-```javascript
-const response = new MessagingResponse();
-response.message('Hello 😜');
-```
