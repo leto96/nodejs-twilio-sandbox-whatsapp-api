@@ -1,8 +1,8 @@
 # Example using Twilio WhatsApp API with NodeJS
 
-This is a starting exmaple to use [Twilio](https://www.twilio.com/) Sandbox and NodeJS to automaticcaly send/receive and reply WhatsApp messages.
+This is a starting example to use [Twilio](https://www.twilio.com/) Sandbox and NodeJS to automatically send/receive and reply WhatsApp messages.
 
-Now it is just for testing and dev, but it can be a start point to use not only the Twilio Sandbox, but [paid Twilio API messages](https://www.twilio.com/whatsapp/pricing/br)
+Now it is just for testing and development, but it can be a start point to use not only the Twilio Sandbox, but [paid Twilio API messages](https://www.twilio.com/whatsapp/pricing/br)
 
 ---
 ## Using with the Sandbox
@@ -20,9 +20,7 @@ Now it is just for testing and dev, but it can be a start point to use not only 
 
 ![Configure Sandbox](./public/Wpp_messages.png)
 
-
-
-You can set up any logic, reply differently some messages or numbers.
+You can set up any logic inside the code, reply differently to different incoming messages or to different numbers.
 
 More info [here](technical.md)
 
