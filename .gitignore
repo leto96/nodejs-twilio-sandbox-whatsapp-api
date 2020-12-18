@@ -1,0 +1,7 @@
+node_modules
+
+notes.md
+.env
+
+DEV_AUX
+DEV_AUX/*
